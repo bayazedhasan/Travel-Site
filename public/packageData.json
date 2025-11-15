@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "packageNumber": "PKG-101",
+    "country": "Maldives",
+    "shortMessage": "White beaches & luxury villas.",
+    "price": 65000,
+    "mrp": 68500,
+    "img": "https://i.postimg.cc/mDv4Xz11/download.jpg"
+  },
+  {
+    "id": 2,
+    "packageNumber": "PKG-102",
+    "country": "Singapore",
+    "shortMessage": "Marina Bay & Sentosa Island.",
+    "price": 60000,
+    "mrp": 68200,
+    "img": "https://i.postimg.cc/vBJyqgxB/542607-singapore.webp"
+  },
+  {
+    "id": 3,
+    "packageNumber": "PKG-103",
+    "country": "Bangladesh",
+    "shortMessage": "Beaches, hills & greenery.",
+    "price": 25000,
+    "mrp": 29000,
+    "img": "https://i.postimg.cc/9M628RRv/Beautiful-places-in-Bangladesh-WMC-hero.jpg"
+  },
+  {
+    "id": 4,
+    "packageNumber": "PKG-104",
+    "country": "UAE (Dubai)",
+    "shortMessage": "Burj Khalifa & desert safari.",
+    "price": 75000,
+    "mrp": 87000,
+    "img": "https://i.postimg.cc/HxqmZc8W/burj-khalifa-det-3.jpg"
+  },
+  {
+    "id": 5,
+    "packageNumber": "PKG-105",
+    "country": "Indonesia (Bali)",
+    "shortMessage": "Bali beaches & temples.",
+    "price": 55000,
+    "mrp": 60000,
+    "img": "https://i.postimg.cc/XJRWHGB7/5032-Gia44g-KW.jpg"
+  },
+  {
+    "id": 6,
+    "packageNumber": "PKG-106",
+    "country": "Malaysia",
+    "shortMessage": "Kuala Lumpur city vibes.",
+    "price": 48000,
+    "mrp": 55000,
+    "img": "https://i.postimg.cc/Jnf86DHz/kuala-lumpur.avif"
+  },
+  {
+    "id": 7,
+    "packageNumber": "PKG-107",
+    "country": "Thailand",
+    "shortMessage": "Bangkok & island adventures.",
+    "price": 42000,
+    "mrp": 50000,
+    "img": "https://i.postimg.cc/xCwQxJNm/Thailand-Featured.webp"
+  },
+  {
+    "id": 8,
+    "packageNumber": "PKG-108",
+    "country": "Turkey",
+    "shortMessage": "Istanbul & Cappadocia.",
+    "price": 70000,
+    "mrp": 85000,
+    "img": "https://i.postimg.cc/63kKj24v/turkey-istanbul.avif"
+  },
+  {
+    "id": 9,
+    "packageNumber": "PKG-109",
+    "country": "Nepal",
+    "shortMessage": "Himalayan villages & temples.",
+    "price": 30000,
+    "mrp": 40000,
+    "img": "https://i.postimg.cc/D0xgfsQw/nepal-village.jpg"
+  }
+]
+

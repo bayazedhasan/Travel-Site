@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.postimg.cc/9M628RRv/Beautiful-places-in-Bangladesh-WMC-hero.jpg",
+    "name": "Sea View Resort",
+    "location": "Cox's Bazar, Bangladesh",
+    "rating": 4.5,
+    "review": "((21k Reviews))",
+    "pricePerNight": 350
+  },
+  {
+    "id": 2,
+    "img": "https://i.postimg.cc/HxqmZc8W/burj-khalifa-det-3.jpg",
+    "name": "Desert Luxury Hotel",
+    "location": "Dubai, UAE",
+    "rating": 4.8,
+    "review": "((5k Reviews))",
+    "pricePerNight": 1500
+  },
+  {
+    "id": 3,
+    "img": "https://i.postimg.cc/vBJyqgxB/542607-singapore.webp",
+    "name": "City Lights Hotel",
+    "location": "Singapore",
+    "rating": 4.6,
+    "review": "((1.5k Reviews))",
+    "pricePerNight": 720
+  },
+  {
+    "id": 4,
+    "img": "https://i.postimg.cc/Jnf86DHz/kuala-lumpur.avif",
+    "name": "Skyline Hotel",
+    "location": "Kuala Lumpur, Malaysia",
+    "rating": 4.3,
+    "review": "((1k Reviews))",
+    "pricePerNight": 700
+  },
+  {
+    "id": 5,
+    "img": "https://i.postimg.cc/XJRWHGB7/5032-Gia44g-KW.jpg",
+    "name": "Tropical Paradise Inn",
+    "location": "Bali, Indonesia",
+    "rating": 4.7,
+    "review": "((2.9k Reviews))",
+    "pricePerNight": 850
+  },
+  {
+    "id": 6,
+    "img": "https://i.postimg.cc/xCwQxJNm/Thailand-Featured.webp",
+    "name": "Island Breeze Hotel",
+    "location": "Phuket, Thailand",
+    "rating": 4.4,
+    "review": "((3k Reviews))",
+    "pricePerNight": 600
+  },
+  {
+    "id": 7,
+    "img": "https://i.postimg.cc/63kKj24v/turkey-istanbul.avif",
+    "name": "Historic Charm Hotel",
+    "location": "Istanbul, Turkey",
+    "rating": 4.6,
+    "review": 200,
+    "pricePerNight": 950
+  },
+  {
+    "id": 8,
+    "img": "https://i.postimg.cc/D0xgfsQw/nepal-village.jpg",
+    "name": "Mountain View Lodge",
+    "location": "Kathmandu, Nepal",
+    "rating": 4.5,
+    "review": "((2.1k Reviews))",
+    "pricePerNight": 400
+  },
+  {
+    "id": 9,
+    "img": "https://i.postimg.cc/mDv4Xz11/download.jpg",
+    "name": "Ocean Breeze Resort",
+    "location": "Maldives",
+    "rating": 4.9,
+    "review": "((2k Reviews))",
+    "pricePerNight": 880
+  }
+]

@@ -3,7 +3,7 @@ import SharedHeading from '../../../Components/Shared/SharedHeading';
 
 const Adventure = () => {
     return (
-        <div className='pt-20 container mx-auto px-12'>
+        <div className='pt-30 container mx-auto px-12'>
             <div>
                 <SharedHeading sortHeading={"Discover Your Next Adventure"} heading={"From hidden gems to iconic destinations, there’s always something new to explore."}></SharedHeading>
             </div>

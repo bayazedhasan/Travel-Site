@@ -4,6 +4,7 @@ import BookNow from './HomeComponents/BookNow';
 import Packages from './HomeComponents/Packages';
 import PopularHotels from './HomeComponents/PopularHotels';
 import Adventure from './HomeComponents/Adventure';
+import Blogs from './HomeComponents/Blogs';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Packages></Packages>
             <PopularHotels></PopularHotels>
             <Adventure></Adventure>
+            <Blogs></Blogs>
         </div>
     );
 };

@@ -1,17 +1,18 @@
 import React from 'react';
 import SharedHeading from '../../../Components/Shared/SharedHeading';
 import useData from '../../../hooks/useData';
+import { IoIosArrowRoundForward } from 'react-icons/io';
 
 const Packages = () => {
     const {packages} = useData()
 
     return (
-        <div className='pt-15'>
+        <div className='pt-15 container mx-auto px-12'>
             <SharedHeading sortHeading={"Special Offers"} heading={"Don't miss out on our exclusive deals and discounts!"}></SharedHeading>
-            <div className='container mx-auto px-12 mt-10'>
+            <div className=' mt-10'>
                 <div className='grid grid-cols-3 items-center gap-6'>
                     {
-                        packages.map(p=>(
+                        packages.slice(0,6).map(p=>(
                             <div>
                                 <div className='border border-gray-300 rounded-xl flex flex-col shadow-lg shadow-amber-200 cursor-pointer h-105 w-115 items-center hover:scale-105 duration-300'>
                                     
@@ -33,6 +34,10 @@ const Packages = () => {
                     }
                 </div>
             </div>
+            <div className='flex gap-1 justify-end pt-12 text-gray-500 items-center cursor-pointer'>
+                            <button className='cursor-pointer text-lg  font-semibold'>More Countrys</button>
+                            <IoIosArrowRoundForward size={30}/>
+                        </div>
         </div>
     );
 };

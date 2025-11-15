@@ -13,7 +13,13 @@ const useData = () => {
         .then(res=>res.json())
         .then(data=>setHotels(data))
     },[])
-    return {packages,hotels}
+    const [blogs,setBlogs] = useState([])
+    useEffect(()=>{
+        fetch("/blogData.json")
+        .then(res=>res.json())
+        .then(data=>setBlogs(data))
+    },[])
+    return {packages,hotels,blogs}
 };
 
 export default useData;

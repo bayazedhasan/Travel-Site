@@ -4,15 +4,17 @@ import useData from '../../../hooks/useData';
 import { FaStar } from 'react-icons/fa';
 import { FaRegStarHalfStroke } from 'react-icons/fa6';
 import { CiLocationOn } from 'react-icons/ci';
+import { IoIosArrowRoundForward } from 'react-icons/io';
+import { Link } from 'react-router';
 
 const PopularHotels = () => {
     const { hotels } = useData()
     return (
-        <div className='mt-20'>
+        <div className='mt-20 container mx-auto px-12'>
             <SharedHeading sortHeading={"Popular Hotels"} heading={"Discover some of the world’s most beautiful hotels."}></SharedHeading>
-            <div className='grid grid-cols-3 items-center gap-6 container mx-auto px-12 pt-10'>
+            <div className='grid grid-cols-3 items-center gap-6  pt-10'>
                 {
-                    hotels.map(h => (
+                    hotels.slice(0, 3).map(h => (
                         <div>
                             <div className='border border-gray-300 rounded-xl flex flex-col shadow-lg shadow-amber-200 cursor-pointer h-100 w-115 hover:scale-105 duration-300'>
 
@@ -35,15 +37,25 @@ const PopularHotels = () => {
 
                                         <p className='text-gray-700 text-md '>{h.rating}</p>
                                         <p className='text-gray-700 text-md'>{h.review}</p>
-                                        
+
                                     </div>
                                     <p className='text-md text-gray-800 font-semibold'>${h.pricePerNight} per night</p>
                                 </div>
                             </div>
+
                         </div>
                     ))
                 }
+                
+
             </div>
+            <Link to={"/services"}>
+            <div className='flex gap-1 justify-end pt-12 text-gray-500 items-center cursor-pointer'>
+                <button className='cursor-pointer text-lg  font-semibold'>More Hotels</button>
+                <IoIosArrowRoundForward size={30}/>
+            </div>
+            </Link>
+            
         </div>
     );
 };

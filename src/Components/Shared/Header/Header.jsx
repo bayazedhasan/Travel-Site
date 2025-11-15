@@ -23,6 +23,7 @@ const Header = () => {
                     <NavLink to={"/discover"}><p className='hover:text-gray-600 font-semibold'>Discover</p></NavLink>
                     <NavLink to={"/services"}><p className='hover:text-gray-600 font-semibold'>Services</p></NavLink>
                     <NavLink to={"/testimonials"}><p className='hover:text-gray-600 font-semibold'>Testimonials</p></NavLink>
+                    <NavLink to={"/blog"}><p className='hover:text-gray-600 font-semibold'>Blogs</p></NavLink>
                     <NavLink to={"/contact"}><p className='hover:text-gray-600 font-semibold'>Contact</p></NavLink>
                 </div>
 
@@ -49,6 +50,9 @@ const Header = () => {
                     </NavLink>
                     <NavLink onClick={() => setOpen(false)} to={"/testimonials"}>
                         <p className='hover:text-gray-600 font-semibold'>Testimonials</p>
+                    </NavLink>
+                    <NavLink onClick={() => setOpen(false)} to={"/blog"}>
+                        <p className='hover:text-gray-600 font-semibold'>Blogs</p>
                     </NavLink>
                     <NavLink onClick={() => setOpen(false)} to={"/contact"}>
                         <p className='hover:text-gray-600 font-semibold'>Contact</p>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.postimg.cc/SK9w4Ls2/blog1.jpg",
+    "shortMessage": "Amazing travel experience!",
+    "name": "John Doe",
+    "comment": "802 Comments",
+    "views": "2.6k+"
+  },
+  {
+    "id": 2,
+    "img": "https://i.postimg.cc/NMwZjy9b/blog2.jpg",
+    "shortMessage": "Loved the hotel service!",
+    "name": "Sarah Ali",
+    "comment": "400 Comments",
+    "views": "1.5k+"
+  },
+  {
+    "id": 3,
+    "img": "https://i.postimg.cc/RFz2Z36R/blog3.jpg",
+    "shortMessage": "Great food and environment!",
+    "name": "Michael Smith",
+    "comment": "452 Comments",
+    "views": "3.1k+"
+  },
+  {
+    "id": 4,
+    "img": "https://i.postimg.cc/hvvsDgsD/gallery1.jpg",
+    "shortMessage": "Beautiful beach view!",
+    "name": "Anna Lee",
+    "comment": "552 Comments",
+    "views": "2.7k+"
+  },
+  {
+    "id": 5,
+    "img": "https://i.postimg.cc/JzZq4pNB/popular1.jpg",
+    "shortMessage": "Wonderful experience overall!",
+    "name": "James Brown",
+    "comment": "752 Comments",
+    "views": "9.7k+"
+  },
+  {
+    "id": 6,
+    "img": "https://i.postimg.cc/L4WBtcvn/popular3.jpg",
+    "shortMessage": "Exceptional hospitality!",
+    "name": "Emily Carter",
+    "comment": "852 Comments",
+    "views": "3.3k+"
+  }
+]

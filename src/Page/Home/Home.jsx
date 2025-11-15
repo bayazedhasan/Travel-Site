@@ -5,6 +5,8 @@ import Packages from './HomeComponents/Packages';
 import PopularHotels from './HomeComponents/PopularHotels';
 import Adventure from './HomeComponents/Adventure';
 import Blogs from './HomeComponents/Blogs';
+import Gallery from './HomeComponents/Gallery';
+import Customers from './HomeComponents/Customers';
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <PopularHotels></PopularHotels>
             <Adventure></Adventure>
             <Blogs></Blogs>
+            <Gallery></Gallery>
+            <Customers></Customers>
         </div>
     );
 };

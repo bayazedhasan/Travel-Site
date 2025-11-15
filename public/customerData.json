@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.postimg.cc/yNjgjG4m/test1.jpg",
+    "name": "Jane Doe",
+    "description": "This travel agency made my vacation unforgettable! The customer service was excellent, and the booking process was smooth and easy."
+  },
+  {
+    "id": 2,
+    "img": "https://i.postimg.cc/wvBtGkgX/test2.jpg",
+    "name": "John Smith",
+    "description": "I had an amazing experience exploring new destinations. The team was very helpful in planning everything. Highly recommend!"
+  },
+  {
+    "id": 3,
+    "img": "https://i.postimg.cc/DZzWMcnq/test3.jpg",
+    "name": "Emily Johnson",
+    "description": "Fantastic service! Everything was taken care of, and I didn’t have to worry about a thing. Looking forward to my next trip"
+  },
+  {
+    "id": 4,
+    "img": "https://i.postimg.cc/wvBtGkgX/test2.jpg",
+    "name": "John Smith",
+    "description": "This travel agency made my vacation unforgettable! The customer service was excellent, and the booking process was smooth and easy."
+  },
+  {
+    "id": 5,
+    "img": "https://i.postimg.cc/yNjgjG4m/test1.jpg",
+    "name": "Emily Johnson",
+    "description": "Fantastic service! Everything was taken care of, and I didn’t have to worry about a thing. Looking forward to my next trip"
+  },
+  {
+    "id": 6,
+    "img": "https://i.postimg.cc/DZzWMcnq/test3.jpg",
+    "name": "Jane Doe",
+    "description": "I had an amazing experience exploring new destinations. The team was very helpful in planning everything. Highly recommend!"
+  }
+]

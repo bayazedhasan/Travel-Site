@@ -2,6 +2,7 @@ import React from 'react';
 import SharedHeading from '../../../Components/Shared/SharedHeading';
 import useData from '../../../hooks/useData';
 import { IoIosArrowRoundForward } from 'react-icons/io';
+import { Link } from 'react-router';
 
 const Packages = () => {
     const {packages} = useData()
@@ -34,10 +35,12 @@ const Packages = () => {
                     }
                 </div>
             </div>
+            <Link to={"/discover"}>
             <div className='flex gap-1 justify-end pt-12 text-gray-500 items-center cursor-pointer'>
-                            <button className='cursor-pointer text-lg  font-semibold'>More Countrys</button>
-                            <IoIosArrowRoundForward size={30}/>
-                        </div>
+                        <button className='cursor-pointer text-lg  font-semibold'>More Countrys</button>
+                        <IoIosArrowRoundForward size={30}/>
+            </div>
+            </Link>
         </div>
     );
 };

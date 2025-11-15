@@ -19,7 +19,19 @@ const useData = () => {
         .then(res=>res.json())
         .then(data=>setBlogs(data))
     },[])
-    return {packages,hotels,blogs}
+    const [gallery,setGallery] = useState([])
+    useEffect(()=>{
+        fetch("/gallery.json")
+        .then(res=>res.json())
+        .then(data=>setGallery(data))
+    },[])
+    const [customerss,setCustomerss] = useState([])
+    useEffect(()=>{
+        fetch("/gallery.json")
+        .then(res=>res.json())
+        .then(data=>setCustomerss(data))
+    },[])
+    return {packages,hotels,blogs,gallery,customerss}
 };
 
 export default useData;

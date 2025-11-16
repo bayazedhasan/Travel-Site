@@ -3,6 +3,7 @@ import React from 'react';
 import SharedHeading from '../../Components/Shared/SharedHeading';
 import useData from '../../hooks/useData';
 import Adventure from '../Home/HomeComponents/Adventure';
+import Footer from '../../Components/Shared/Footer';
 
 const Discover = () => {
     const {packages} = useData()
@@ -10,7 +11,7 @@ const Discover = () => {
     return (
         <>
             <Adventure></Adventure>
-        <div className='mt-15 container mx-auto px-12'>
+        <div className='my-15 container mx-auto px-12'>
             <SharedHeading sortHeading={"Special Offers"} heading={"Don't miss out on our exclusive deals and discounts!"}></SharedHeading>
             <div className=' mt-10'>
                 <div className='grid grid-cols-3 items-center gap-6'>
@@ -39,6 +40,7 @@ const Discover = () => {
             </div>
             
         </div>
+        <Footer></Footer>
         </>
     );
 };

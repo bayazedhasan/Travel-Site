@@ -3,11 +3,12 @@ import { FaComments } from 'react-icons/fa';
 import { TiEye } from 'react-icons/ti';
 import SharedHeading from '../../Components/Shared/SharedHeading';
 import useData from '../../hooks/useData';
+import Footer from '../../Components/Shared/Footer';
 
 const Blog = () => {
     const {blogs} = useData()
     return (
-        <div className='my-15 container mx-auto px-12'>
+        <><div className='my-15 container mx-auto px-12'>
             <div>
                 <SharedHeading sortHeading={"Our Latest Blogs"} heading={"Discover inspiring stories, tips, and guides from our expert travelers."}></SharedHeading>
             </div>
@@ -36,7 +37,11 @@ const Blog = () => {
                     ))
                 }
             </div>
+            
         </div>
+        <Footer></Footer>
+        </>
+        
     );
 };
 

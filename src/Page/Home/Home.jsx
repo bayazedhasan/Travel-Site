@@ -7,6 +7,7 @@ import Adventure from './HomeComponents/Adventure';
 import Blogs from './HomeComponents/Blogs';
 import Gallery from './HomeComponents/Gallery';
 import Customers from './HomeComponents/Customers';
+import Footer from '../../Components/Shared/Footer';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Blogs></Blogs>
             <Gallery></Gallery>
             <Customers></Customers>
+            <Footer></Footer>
         </div>
     );
 };

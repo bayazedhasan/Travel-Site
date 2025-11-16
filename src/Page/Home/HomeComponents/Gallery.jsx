@@ -5,7 +5,7 @@ import useData from '../../../hooks/useData';
 const Gallery = () => {
     const {gallery} = useData()
     return (
-        <div className='container mx-auto px-'>
+        <div className='container mx-auto px-12'>
             <div className='pt-15'>
                 <SharedHeading sortHeading={"Our Gallery"} heading={"Capture Unforgettable Moments"}></SharedHeading>
             </div>

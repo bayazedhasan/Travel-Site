@@ -4,12 +4,13 @@ import { FaRegStarHalfStroke } from 'react-icons/fa6';
 import { CiLocationOn } from 'react-icons/ci';
 import useData from '../../hooks/useData';
 import SharedHeading from '../../Components/Shared/SharedHeading';
+import Footer from '../../Components/Shared/Footer';
 
 
 const PopularHotels = () => {
     const { hotels } = useData()
     return (
-        <div className='my-15 container mx-auto px-12'>
+        <><div className='my-15 container mx-auto px-12'>
             <SharedHeading sortHeading={"Popular Hotels"} heading={"Discover some of the world’s most beautiful hotels."}></SharedHeading>
             <div className='grid grid-cols-3 items-center gap-6  pt-10'>
                 {
@@ -49,6 +50,8 @@ const PopularHotels = () => {
 
             </div>  
         </div>
+        <Footer></Footer>
+        </>
     );
 };
 

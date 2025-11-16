@@ -39,7 +39,7 @@ const Blogs = () => {
                 }
             </div>
             <Link to={"/blog"}>
-            <div className='flex gap-1 justify-end pt-12 text-gray-500 items-center cursor-pointer'>
+            <div className='flex gap-1 justify-end pt-12 hover:text-[#306366] text-gray-500 items-center cursor-pointer'>
                 <button className='cursor-pointer text-lg  font-semibold'>More Blogs</button>
                 <IoIosArrowRoundForward size={30}/>
             </div>

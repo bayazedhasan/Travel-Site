@@ -27,7 +27,7 @@ const useData = () => {
     },[])
     const [customerss,setCustomerss] = useState([])
     useEffect(()=>{
-        fetch("/gallery.json")
+        fetch("/customerData.json")
         .then(res=>res.json())
         .then(data=>setCustomerss(data))
     },[])

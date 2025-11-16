@@ -8,6 +8,7 @@ import Blogs from './HomeComponents/Blogs';
 import Gallery from './HomeComponents/Gallery';
 import Customers from './HomeComponents/Customers';
 import Footer from '../../Components/Shared/Footer';
+import ScrollToTop from '../../Components/Shared/ScrollToTop';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <Blogs></Blogs>
             <Gallery></Gallery>
             <Customers></Customers>
+            <ScrollToTop></ScrollToTop>
             <Footer></Footer>
         </div>
     );

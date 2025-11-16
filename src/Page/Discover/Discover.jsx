@@ -4,6 +4,7 @@ import SharedHeading from '../../Components/Shared/SharedHeading';
 import useData from '../../hooks/useData';
 import Adventure from '../Home/HomeComponents/Adventure';
 import Footer from '../../Components/Shared/Footer';
+import ScrollToTop from '../../Components/Shared/ScrollToTop';
 
 const Discover = () => {
     const {packages} = useData()
@@ -40,6 +41,7 @@ const Discover = () => {
             </div>
             
         </div>
+        <ScrollToTop></ScrollToTop>
         <Footer></Footer>
         </>
     );
